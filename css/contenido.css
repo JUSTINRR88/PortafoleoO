@@ -1,0 +1,42 @@
+.contenedor {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+img {
+    width: 10rem;
+    height: 5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 1.5rem;
+}
+
+.github {
+    background-color: #24292e; /* Color de fondo de GitHub */
+    width: 10rem;
+    height: 2rem;
+    margin-left: auto;
+    margin-top: auto; /* Alinear al centro verticalmente */
+    font-size: 1.5rem; /* Reducir un poco el tamaño de la fuente */
+    font-weight: 600;
+    color: white; /* Color de texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px; /* Añadir un poco de redondez */
+    padding: 0.5rem 1rem; /* Añadir relleno para mejorar la apariencia */
+    transition: background-color 0.3s; /* Añadir transición para el cambio de color de fondo */
+}
