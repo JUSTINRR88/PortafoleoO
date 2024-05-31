@@ -1,12 +1,25 @@
-.root{
-    width: 100%;
-    height: 60rem;
+/* Estilos para pantallas grandes (diseño original) */
+.root {
+    width: 130rem;
+    height: 100%;
     margin: auto;
     margin-top: 1%;
     display: grid;
     grid-template-columns: 20% 1fr;
-    grid-template-rows: 10% 40% 1fr;
-    gap: 10px;
+    grid-template-rows: 10% 60% 1fr;
+    gap: 2rem;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 360px) {
+    .root {
+        width: 100%;
+        margin-top: 2%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 1rem;
+    }
 }
 
 

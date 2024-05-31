@@ -1,7 +1,7 @@
 import { lista_soporte } from "./data_tecnica.js"
 let div_soporte = document.querySelector(".contenedor2")
 
-div_soporte.innerHTML  = "hiols";
+div_soporte.innerHTML  = "";
 
 lista_soporte.forEach((cada_categoria)=>{
     let div = document.createElement("div");
