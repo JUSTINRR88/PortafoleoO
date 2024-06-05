@@ -1,5 +1,5 @@
 let header = `
-    <div class="log">JB</div>
+    <div class="log">Justin Bercian</div>
     <nav>
         <div>Our Vision</div>
         <div> Projects</div>
